@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Basket.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ApplePicker.cs">
     <Files>
       <File FileName="Assets\Basket.cs" Line="44" Column="18" />
+      <File FileName="Assets\ApplePicker.cs" Line="42" Column="40" />
+      <File FileName="Assets\Apple.cs" Line="16" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

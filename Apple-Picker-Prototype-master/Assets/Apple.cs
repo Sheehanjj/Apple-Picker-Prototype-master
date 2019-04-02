@@ -13,8 +13,12 @@ public class Apple : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// if we dropped an apple
 		if (transform.position.y < bottomY) {
 			Destroy (this.gameObject);
+			// get a pointer to the ApplePicker Script
+			ApplePicker apScript = Camera.main.GetComponent<ApplePicker> ();
+			apScript.AppleDestroyed ();
 		}
 	}
 }
